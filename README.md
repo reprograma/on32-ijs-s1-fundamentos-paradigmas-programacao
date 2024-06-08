@@ -11,8 +11,8 @@ Antes de começar, vamos organizar nosso setup.
 * Fork esse repositório 
 * Clone o fork na sua máquina (Para isso basta abrir o seu terminal e digitar `git clone url-do-seu-repositorio-forkado`)
 * Entre na pasta do seu repositório (Para isso basta abrir o seu terminal e digitar `cd nome-do-seu-repositorio-forkado`)
-* Crie uma nova (Para isso digite em seu terminal: `git checkout -b nome-da-sua-branch`)
-* Agora abra o projeto em seu VScode (Para isso digite `Code .` e aperte enter)
+* Crie uma nova branch (Para isso digite em seu terminal: `git checkout -b nome-da-sua-branch`)
+* Agora abra o projeto em seu VScode (Para isso digite `code .` e aperte enter)
 
 ### Objetivo
 Aprender os fundamentos de paradigmas de programação, especialmente ao comparar a programação orientada a objetos (POO) com outros tipos de programação, e fornecer uma compreensão sólida dos conceitos fundamentais e das diferenças entre esses paradigmas. Introdução ao TypeScript, apresentando as particularidades iniciais da linguagem.

@@ -13,11 +13,11 @@ class AlimentoOrganico implements ProdutoEcologico {
         this.ingredientes = ingredientes
     }
 
-    cadastrar() {
+    cadastrarProduto() {
         console.log(`Cadastrando o alimento orgânico: ${this.nome}`)
     }
 
-    exibir(): void {
+    exibirInformacoes(): void {
         console.log(`
         Nome: ${this.nome}, 
         Preço: R$ ${this.preco}, 
@@ -37,11 +37,11 @@ class ProdutoLimpezaBiodegradavel implements ProdutoEcologico {
         this.volume = volume
     }
 
-    cadastrar() {
+    cadastrarProduto() {
         console.log(`Cadastrando o produto de limpeza biodegradável: ${this.nome}`)
     }
 
-    exibir(): void {
+    exibirInformacoes() {
         console.log(`Nome: ${this.nome}, 
         Preço: R$ ${this.preco}, 
         Volume: ${this.volume} g`)
@@ -61,11 +61,11 @@ class ItemDecoracaoSustentavel implements ProdutoEcologico {
         this.dimensoes = dimensoes
     }
 
-    cadastrar() {
+    cadastrarProduto() {
         console.log(`Cadastrando o item de decoração sustentável: ${this.nome}`)
     }
 
-    exibir(): void {
+    exibirInformacoes() {
         console.log(`
         Nome: ${this.nome}, 
         Preço: R$ ${this.preco}, 
@@ -84,10 +84,10 @@ const item = new ItemDecoracaoSustentavel('Cadeira Reciclada', 100, 'Madeira rec
 
 
 
-alimento.cadastrar()
-alimento.exibir()
-produtoLimpeza.cadastrar()
-produtoLimpeza.exibir()
+alimento.cadastrarProduto()
+alimento.exibirInformacoes()
+produtoLimpeza.cadastrarProduto()
+produtoLimpeza.exibirInformacoes()
 
-item.cadastrar()
-item.exibir()
+item.cadastrarProduto()
+item.exibirInformacoes()

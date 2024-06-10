@@ -12,6 +12,14 @@ class ItemDecoracaoSustentavel implements ProdutoEcologico{
         this.material = material;
         this.dimensoes = dimensoes;
     }
+
+    cadastrar(): void {
+        console.log(`Cadastrando Item de Decoração Sustentável: ${this.nome}`);
+    }
+
+    exibir(): void {
+        console.log(`Nome: ${this.nome}, Preço: R$${this.preco}, Material: ${this.material}, Dimensões: ${this.dimensoes.largura}x${this.dimensoes.altura}x${this.dimensoes.profundidade} cm`);
+    }
 }
 
 const item = new ItemDecoracaoSustentavel(
@@ -21,7 +29,5 @@ const item = new ItemDecoracaoSustentavel(
     { largura: 10, altura: 15, profundidade: 10 }
 );
 
-console.log(item.nome); // Vaso Reciclado
-console.log(item.preco); // 29.99
-console.log(item.material); // Plástico Reciclado
-console.log(item.dimensoes); // { largura: 10, altura: 15, profundidade: 10 }
+item.cadastrar();
+item.exibir();

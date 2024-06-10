@@ -13,14 +13,18 @@ class AlimentoOrganico implements ProdutoEcologico{
         this.ingredientes = ingredientes;
     }
 
-    getDataValidadeFormatada(): string {
-        return this.dataValidade.toLocaleDateString('pt-BR');
+    cadastrar(): void {
+        console.log(`Cadastrando Alimento Orgânico: ${this.nome}`);
     }
-
+    exibir(): void {
+        console.log(`Nome: ${this.nome}, Preço: R$${this.preco}, Data de Validade: ${this.dataValidade.toLocaleDateString('pt-BR')}, Ingredientes: ${this.ingredientes.join(', ')}`);
+    }
 }
 
-const alimentoOrganico = new AlimentoOrganico('Maçã Orgânica', 3.50, new Date('2024-12-31'), ['Maçã']);
-console.log(alimentoOrganico.nome); // Maçã Orgânica
-console.log(alimentoOrganico.preco); // 3.50
-console.log(alimentoOrganico.getDataValidadeFormatada()); // Data formatada
-console.log(alimentoOrganico.ingredientes); // ['Maçã']
+const alimentoOrganico = new AlimentoOrganico(
+    'Maçã Orgânica',
+    3.50,
+    new Date('2024-06-15'),
+    ['Maçã']);
+alimentoOrganico.cadastrar();
+alimentoOrganico.exibir();

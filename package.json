@@ -1,0 +1,20 @@
+{
+  "name": "on32-ijs-s1-fundamentos-paradigmas-programacao",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\">\r   <img src=\"assets/reprograma-fundos-claros.png\" alt=\"logo reprograma\" width=\"500\">\r </h1>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nataliasalles1/on32-ijs-s1-fundamentos-paradigmas-programacao.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nataliasalles1/on32-ijs-s1-fundamentos-paradigmas-programacao/issues"
+  },
+  "homepage": "https://github.com/Nataliasalles1/on32-ijs-s1-fundamentos-paradigmas-programacao#readme"
+}

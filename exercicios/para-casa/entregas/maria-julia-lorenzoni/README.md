@@ -4,7 +4,7 @@
 
 O projeto está estruturado da seguinte maneira:
 
-- **exercicios/para-casa/entregas/maria-julia-lorenzoni/**: Diretório contendo os arquivos principais do projeto.
+- **exercicios/para-casa/entregas/maria-julia-lorenzoni/**: Diretório contendo os arquivos principais do projeto. 
   - **produtoEcologico.ts**: Interface base para todos os produtos ecológicos.
   - **itemDecoracaoSustentavel.ts**: Classe que representa itens de decoração sustentáveis, implementando a interface `ProdutoEcologico`.
   - **alimentoOrganico.ts**: Classe que representa alimentos orgânicos, implementando a interface `ProdutoEcologico`.
@@ -18,3 +18,6 @@ Utilizei o módulo `readline` do Node.js para criar uma interface de linha de co
 Adicionei alguns itens no sistema, então o mercadinho já tem 9 itens implementados no seu sistema. 
 
 É possível visualizar, adicionar e excluir produtos do sistema.
+
+
+

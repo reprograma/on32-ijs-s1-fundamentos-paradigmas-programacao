@@ -30,4 +30,4 @@ console.log(itens.exibir())
 // Comprimento: 100 Cm
 // Profundidade: 45 Cm
 // Metalon: 2,5 Cm
-// Espessura Metalon: 1,25
+// Espessura Metalon: 1,25h

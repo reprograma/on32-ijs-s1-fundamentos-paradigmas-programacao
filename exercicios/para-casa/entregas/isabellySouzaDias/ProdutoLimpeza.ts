@@ -16,5 +16,3 @@ class ProdutoLimpeza implements ProdutoEcologico {
 }
 const Produtos = new ProdutoLimpeza("Lava louça liquido de laranja",8.99, 420)
 console.log(Produtos.exibir())
-//Lava Louças Líquido Laranja 420ml
-//8,99

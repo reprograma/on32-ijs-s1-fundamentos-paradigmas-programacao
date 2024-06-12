@@ -2,7 +2,7 @@ interface Veiculo{
     marca:string;
     modelo:string;
     ano:number;
-    exibirInformacao():string
+    exibirInformacao():string;
 }
 
 class Automovel implements Veiculo{

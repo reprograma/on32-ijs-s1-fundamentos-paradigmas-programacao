@@ -7,7 +7,7 @@ import { Animal } from "./animais";
 class Cachorro implements Animal{
     nome: string;
     idade: number;
-    raca:string;
+    raca:string
 
     constructor(nome:string,idade:number,raca:string){
         this.nome= nome

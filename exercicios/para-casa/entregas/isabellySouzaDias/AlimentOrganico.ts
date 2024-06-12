@@ -19,6 +19,3 @@ class AlimentOrganico implements ProdutoEcologico {
 const Alimentos = new AlimentOrganico("Molho Shoyu Orgânico Tradicional",30.30, 12,["Soja orgânica, trigo orgânico, água e sal marinho."])
 console.log(Alimentos.exibir())
 
-//Molho Shoyu Orgânico Tradicional 500ml
-//R$30.30
-//Ingredientes: Soja orgânica, trigo orgânico, água e sal marinho.

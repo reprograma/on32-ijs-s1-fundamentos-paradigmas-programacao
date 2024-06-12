@@ -3,7 +3,7 @@ import { Livro } from "./livro";
 class LivrosDigitais implements Livro{
     titulo: string;
     autor: string;
-    formato:string;
+    formato:string
 
     constructor (titulo:string,autor:string,formato:string){
         this.titulo =titulo

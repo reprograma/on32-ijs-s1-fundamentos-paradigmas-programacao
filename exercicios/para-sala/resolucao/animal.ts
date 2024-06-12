@@ -16,10 +16,3 @@
 // Por fim, crie objetos das classes Cachorro e Gato, defina suas propriedades e chame o método som.
 
 
-export interface Animal {
-    nome:string;
-    idade:number;
-    som():void;
-}
-
-

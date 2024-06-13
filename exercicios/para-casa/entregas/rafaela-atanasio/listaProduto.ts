@@ -1,48 +1,42 @@
 import { ProdutoEcologico } from "./ProdutoEcologico";
 
-class AlimentoOrganico implements ProdutoEcologico { // sempre com letra Maiúscula
+// PRIMEIRA CLASSE
+class AlimentoOrganico implements ProdutoEcologico {
     nome: string;
     preco: number;
     dataValidade: Date; // INSERIR DATA CHAMAR MÉTODO TYPESCRIPT
     ingredientes: string[];
-
-constructor(nome: string, preco: number, dataValidade: number, ingredientes: string[]) { // método com os parâmetros dentro
+constructor(nome: string, preco: number, dataValidade: number, ingredientes: string[]) {
     this.nome = nome;
     this.preco = preco;
     this.dataValidade = new Date (dataValidade);
     this.ingredientes = ingredientes;
-}
-
-// - Adicionar métodos nas classes para cadastrar, exibir e gerenciar produtos.
+    }
 infosOrganico():string {
-    return `Nome: ${this.nome}, Preço: ${this.preco}, Data de Validade: ${this.dataValidade.getFullYear()}, Ingredientes: ${this.ingredientes}}`
+    return `Nome: ${this.nome}, Preço: R$ ${this.preco},00, Data de Validade: ${this.dataValidade.getFullYear()}, Ingredientes: ${this.ingredientes}}`
+    }
 }
-}
-
 const organico = new AlimentoOrganico("Bolo", 10, 11/6/2024 , ["laranja", " açúcar", " farinha"]); // instanciando a classe
 console.log(organico.infosOrganico()) // 
 
-
-/*
-
-class ProdutoLimpezaBiodegradavel implements ProdutoEcologico { // sempre com letra Maiúscula
+// SEGUNDA CLASSE
+class ProdutoLimpezaBiodegradavel implements ProdutoEcologico {
     nome: string;
     preco: number;
-    volume: number; // atributo
-
-    constructor(nome: string, preco: number, volume: number) { // método com os parâmetros dentro
+    volume: number;
+constructor(nome: string, preco: number, volume: number) {
         this.nome = nome;
         this.preco = preco;
         this.volume = volume;
     }
 infosLimpeza(): string{
-    return `Nome: ${this.nome}, Preço: ${this.preco}, Volume: ${this.volume}ml}`
+    return `Nome: ${this.nome}, Preço: R$ ${this.preco},00, Volume: ${this.volume}ml}`
+    }
 }
-
 const limpeza = new ProdutoLimpezaBiodegradavel("Sabão", 5, 50);
 console.log(limpeza.infosLimpeza())
 
-
+/*
 
 class ItemDecoracaoSustentavel implements ProdutoEcologico { // sempre com letra Maiúscula
     nome: string;

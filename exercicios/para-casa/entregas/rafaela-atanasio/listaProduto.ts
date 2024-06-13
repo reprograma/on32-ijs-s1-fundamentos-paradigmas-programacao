@@ -36,26 +36,24 @@ infosLimpeza(): string{
 const limpeza = new ProdutoLimpezaBiodegradavel("Sabão", 5, 50);
 console.log(limpeza.infosLimpeza())
 
-/*
-
-class ItemDecoracaoSustentavel implements ProdutoEcologico { // sempre com letra Maiúscula
+// TERCEIRA CLASSE
+class ItemDecoracaoSustentavel implements ProdutoEcologico {
     nome: string;
     preco: number;
-    material: string; // atributo
-    dimensoes: { largura: number;
-        | altura: number;
-        | profundidade: number};
-
-constructor(nome: string, preco: number, material: string, largura: number, altura: number, profundidade: number) { // método com os parâmetros dentro
+    material: string;
+    dimensoes: { 
+        largura: number;
+        altura: number;
+        profundidade: number};
+constructor(nome: string, preco: number, material: string, dimensoes: {largura: number, altura: number, profundidade: number}) {
+    this.nome = nome;
+    this.preco = preco;
     this.material = material;
-    this.largura = largura;
-    this.altura = altura;
-    this.profundidade = profundidade
+    this.dimensoes = dimensoes;
+    }
+infosDecoracao(): string{
+    return `Nome: ${this.nome}, Preço: R$ ${this.preco},00, Material: ${this.material}, Dimensões = Largura: ${this.dimensoes.largura}cm, Altura: ${this.dimensoes.altura}cm, Profundidade: ${this.dimensoes.profundidade}cm}`
+    }
 }
-}
-
-// instanciar essa classe
-const decoracao = new ItemDecoracaoSustentavel();
-console.log(decoracao)
-
-*/
+const decoracao = new ItemDecoracaoSustentavel("Quadro", 50, "Bambu", {largura: 10, altura: 80, profundidade: 30});
+console.log(decoracao.infosDecoracao())

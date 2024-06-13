@@ -3,24 +3,24 @@ import { ProdutoEcologico } from "./ProdutoEcologico";
 class AlimentoOrganico implements ProdutoEcologico { // sempre com letra Maiúscula
     nome: string;
     preco: number;
-    dataValidade: Date = new Date(); // INSERIR DATA CHAMAR MÉTODO TYPESCRIPT
-    ingredientes: string[] = [];
+    dataValidade: Date; // INSERIR DATA CHAMAR MÉTODO TYPESCRIPT
+    ingredientes: string[];
 
-    constructor(nome: string, preco: number, dataValidade: Date(), ingredientes: string[]) { // método com os parâmetros dentro
+constructor(nome: string, preco: number, dataValidade: number, ingredientes: string[]) { // método com os parâmetros dentro
     this.nome = nome;
     this.preco = preco;
-    this.dataValidade = dataValidade;
+    this.dataValidade = new Date (dataValidade);
     this.ingredientes = ingredientes;
 }
 
 // - Adicionar métodos nas classes para cadastrar, exibir e gerenciar produtos.
-mostrarInformacoes():string{
+infosOrganico():string {
     return `Nome: ${this.nome}, Preço: ${this.preco}, Data de Validade: ${this.dataValidade.getFullYear()}, Ingredientes: ${this.ingredientes}}`
-    }
+}
 }
 
-const organico = new AlimentoOrganico("Bolo", 10, ["laranja", "açúcar", "farinha"]); // instanciando a classe
-console.log(organico.mostrarInformacoes) // 
+const organico = new AlimentoOrganico("Bolo", 10, 11/6/2024 , ["laranja", " açúcar", " farinha"]); // instanciando a classe
+console.log(organico.infosOrganico()) // 
 
 
 /*
@@ -31,13 +31,16 @@ class ProdutoLimpezaBiodegradavel implements ProdutoEcologico { // sempre com le
     volume: number; // atributo
 
     constructor(nome: string, preco: number, volume: number) { // método com os parâmetros dentro
+        this.nome = nome;
+        this.preco = preco;
         this.volume = volume;
     }
+infosLimpeza(): string{
+    return `Nome: ${this.nome}, Preço: ${this.preco}, Volume: ${this.volume}ml}`
 }
 
-const limpeza = new ProdutoLimpezaBiodegradavel();
-console.log(limpeza)
-
+const limpeza = new ProdutoLimpezaBiodegradavel("Sabão", 5, 50);
+console.log(limpeza.infosLimpeza())
 
 
 

@@ -17,5 +17,5 @@ class itemDecoracaoSustentavel implements produtoEcologico {
 
 //para testar:
 
-/*const produtoDecoracaoSustentavel = new itemDecoracaoSustentavel('Vaso de Madeira Reciclada', 39.99, 'madeira', { largura: 20, altura: 30, profundidade: 15 });
-console.log (produtoDecoracaoSustentavel);*/
+const produtoDecoracaoSustentavel = new itemDecoracaoSustentavel('Vaso de Madeira Reciclada', 39.99, 'madeira', { largura: 20, altura: 30, profundidade: 15 });
+console.log (produtoDecoracaoSustentavel);

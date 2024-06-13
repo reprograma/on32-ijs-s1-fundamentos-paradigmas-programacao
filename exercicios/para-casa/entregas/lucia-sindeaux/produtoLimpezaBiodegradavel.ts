@@ -15,6 +15,6 @@ class produtoLimpezaBiodegradavel implements produtoEcologico {
 
 //para testar:
 
- /* const listaProdutosLimpeza = new produtoLimpezaBiodegradavel ( 'Vanish', 14.99, 200 )
-  console.log (`Nome do produto: ${listaProdutosLimpeza.nome}, Preço do produto: ${listaProdutosLimpeza.preco}, Tamanho do pacote: ${listaProdutosLimpeza.volume}`) 
-  */
+const listaProdutosLimpeza = new produtoLimpezaBiodegradavel ( 'Vanish', 14.99, 200 )
+console.log (`Nome do produto: ${listaProdutosLimpeza.nome}, Preço do produto: ${listaProdutosLimpeza.preco}, Tamanho do pacote: ${listaProdutosLimpeza.volume}`) 
+  

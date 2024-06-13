@@ -15,13 +15,13 @@ class alimentoOrganico implements produtoEcologico {
       }
 }
 
-//Para testar
+//Para testar:
 
-/*const listaAlimentoOrganico = new alimentoOrganico('Galinha Caipira', 20.50, new Date(2024, 6, 11), ['Galinha criada em condições adequadas', 'Sem conservantes']);
+const listaAlimentoOrganico = new alimentoOrganico('Galinha Caipira', 20.50, new Date(2024, 6, 11), ['Galinha criada em condições adequadas', 'Sem conservantes']);
 
 console.log(`
 Nome do produto: ${listaAlimentoOrganico.nome}
 Preço do produto: ${listaAlimentoOrganico.preco}
 Data de validade: ${listaAlimentoOrganico.dataValidade}
 Ingredientes: ${listaAlimentoOrganico.ingredientes.join(', ')}
-`); */
+`); 

@@ -6,17 +6,17 @@ class AlimentoOrganico implements ProdutoEcologico {
     preco: number;
     dataValidade: Date; // INSERIR DATA CHAMAR MÉTODO TYPESCRIPT
     ingredientes: string[];
-constructor(nome: string, preco: number, dataValidade: number, ingredientes: string[]) {
+constructor(nome: string, preco: number, dataValidade: string, ingredientes: string[]) {
     this.nome = nome;
     this.preco = preco;
     this.dataValidade = new Date (dataValidade);
     this.ingredientes = ingredientes;
     }
 infosOrganico():string {
-    return `Nome: ${this.nome}, Preço: R$ ${this.preco},00, Data de Validade: ${this.dataValidade.getFullYear()}, Ingredientes: ${this.ingredientes}}`
+        return `Nome: ${this.nome}, Preço: R$ ${this.preco}, Data de Validade: ${this.dataValidade.toLocaleDateString('pt-BR')}, Ingredientes: ${this.ingredientes}`;
     }
 }
-const organico = new AlimentoOrganico("Bolo", 10, 11/6/2024 , ["laranja", " açúcar", " farinha"]); // instanciando a classe
+const organico = new AlimentoOrganico("Bolo", 10, "2024-06-11" , ["laranja", " açúcar", " farinha"]); // instanciando a classe
 console.log(organico.infosOrganico()) // 
 
 // SEGUNDA CLASSE

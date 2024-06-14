@@ -63,7 +63,7 @@ Cada classe deve representar um tipo de produto ecológico e implementar uma int
 Diagrama:
 
 - **ProdutoEcologico** é a interface básica que define as propriedades comuns a todos os produtos ecológicos, como nome e preço.
-- **AlimentoOrganico**, **ProdutoLimpezaBiodegradavel** e ItemDecoracaoSustentavel são classes que implementam a interface ProdutoEcologico, cada uma representando um tipo específico de produto ecológico.
+- **AlimentoOrganico**, **ProdutoLimpezaBiodegradavel** e **ItemDecoracaoSustentavel** são classes que implementam a interface ProdutoEcologico, cada uma representando um tipo específico de produto ecológico.
 - Cada classe possui suas próprias propriedades específicas, como data de validade e ingredientes para **AlimentoOrganico**, volume para **ProdutoLimpezaBiodegradavel** e material e dimensões para **ItemDecoracaoSustentavel**.
 
  

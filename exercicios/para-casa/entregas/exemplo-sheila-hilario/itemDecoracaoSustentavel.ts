@@ -2,13 +2,11 @@ export interface ProdutoEcologico {
   nome: string;
   preco: number;
 }
-
 interface Dimensoes {
   largura: number;
   altura: number;
   profundidade: number;
 }
-
 export class ItemDecoracaoSustentavel implements ProdutoEcologico {
   nome: string;
   preco: number;

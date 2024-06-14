@@ -1,5 +1,4 @@
 import { ProdutoEcologico } from '../../produtoEcologico';
-
 export class AlimentoOrganico implements ProdutoEcologico {
 
   nome: string;

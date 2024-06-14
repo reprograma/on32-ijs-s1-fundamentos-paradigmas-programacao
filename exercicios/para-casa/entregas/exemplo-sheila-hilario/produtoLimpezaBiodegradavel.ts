@@ -1,6 +1,4 @@
 import { ProdutoEcologico } from '../../produtoEcologico';
-
-
 export class ProdutoLimpezaBiodegradavel implements ProdutoEcologico {
   nome: string;
   preco: number;

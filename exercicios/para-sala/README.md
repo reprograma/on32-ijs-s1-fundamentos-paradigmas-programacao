@@ -34,7 +34,7 @@ Tarefas
 Defina a Interface ContaBancaria
 
 ```lua
-___________________________          ___________________________
+____________________________         ___________________________
 |        ContaBancaria      |        |         ContaCorrente      |
 |---------------------------|        |---------------------------|
 | + saldo: number           |        | + saldo: number           |

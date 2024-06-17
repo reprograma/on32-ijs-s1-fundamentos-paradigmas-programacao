@@ -22,4 +22,16 @@ class Automovel implements Veiculo {
 }
 
 const myCarro = new Automovel("Toyota", "Corolla", 2024)
-console.log(myCarro.exibirInformacoes())
+
+    constructor(marca:string, modelo:string, ano:number){
+        this.marca = marca;
+        this.modelo = modelo;
+        this.ano = ano
+    }
+    exibirInformacoes():string {
+        return `Marca${this.marca}, Modelo:${this.modelo}, Ano${this.ano}`
+    }
+
+}
+
+const myCarro = new Automovel("toyota", "Corolla", 2024)

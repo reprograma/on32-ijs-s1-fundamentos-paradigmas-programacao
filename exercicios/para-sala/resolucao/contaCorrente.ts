@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-
->>>>>>> dc9686db206aedbe20b560ac9b045684173d8dcb
 import { ContaBancaria } from "./contaBancaria";
 
 class ContaCorrente implements ContaBancaria {

@@ -1,35 +1,35 @@
+//exercicios feitos pela profa aqui
 
-// let numero:number = 10;
-// console.log(numero)
+let numero:number = 10;
+console.log(numero);
 
-// let nome:string = "Natalia";
-// console.log(nome)
+let nome:string ="Maila"
+console.log(nome);
 
-// const pi:number = 3.14;
-// console.log(pi)
+const pi:number = 3.14;
+console.log(pi);
 
+function saudacao(nome:string, idade:number){
+    console.log(`Olá , sou a ${nome} e tenho ${idade}`);
+}
+const nomeUsuario:string = "Maila";
+const idade:number = 34;
+saudacao(nomeUsuario, idade)
 
-// função
-// function saudacao(nome:string, idade:number) {
-//     console.log(`Olá eu me chamo ${nome} e tenho ${idade} anos.`);
-// }
-// const nomeUsuario:string = "Natália"
-// const idade:number = 26;
-// saudacao(nomeUsuario, idade)
 
 //OBJETO
-// const pessoa = {
-//     nome:"Alice",
-//     idade:15,
-//     cidade:"Salvador",
-//     apresentar: function():string {
-//         return `Olá meu nome é ${this.nome}, eu tenho ${this.idade} e sou da cidade de ${this.cidade}`
-//     }
-// }
+const pessoa = {
+    nome: "Maila",
+    idade: 34,
+    cidade: "São Paulo",
+    apresentar: function():string {
+        return `Olá meu nome é ${this.nome}, eu tenho ${idade} e sou da cidade de ${this.cidade}`
+    }
+}
+console.log(pessoa.apresentar());
 
-// console.log(pessoa.apresentar())
 
-// CLASSE
+//CLASSE
 
 class Carro {
     marca:string;
@@ -45,5 +45,3 @@ class Carro {
 
 const meuCarro = new Carro("Toyota", "Corolla", 2024);
 console.log(meuCarro)
-
-

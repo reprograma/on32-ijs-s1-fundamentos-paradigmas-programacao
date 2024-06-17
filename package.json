@@ -8,13 +8,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Nataliasalles1/on32-ijs-s1-fundamentos-paradigmas-programacao.git"
+    "url": "git+https://github.com/MailaFAP/on32-ijs-s1-fundamentos-paradigmas-programacao.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Nataliasalles1/on32-ijs-s1-fundamentos-paradigmas-programacao/issues"
+    "url": "https://github.com/MailaFAP/on32-ijs-s1-fundamentos-paradigmas-programacao/issues"
   },
-  "homepage": "https://github.com/Nataliasalles1/on32-ijs-s1-fundamentos-paradigmas-programacao#readme"
+  "homepage": "https://github.com/MailaFAP/on32-ijs-s1-fundamentos-paradigmas-programacao#readme"
 }

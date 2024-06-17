@@ -12,7 +12,6 @@
 // Por fim, crie um objeto da classe LivroDigital, defina suas propriedades e chame o método detalhes.
 
 export interface Livro {
-    formato:string;
     titulo:string;
     autor:string;
     detalhe():string;

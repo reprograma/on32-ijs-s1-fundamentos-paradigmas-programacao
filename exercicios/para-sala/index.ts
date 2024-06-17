@@ -1,3 +1,4 @@
+
 //exercicios feitos pela profa aqui
 
 let numero:number = 10;
@@ -31,6 +32,7 @@ console.log(pessoa.apresentar());
 
 //CLASSE
 
+
 class Carro {
     marca:string;
     modelo:string;
@@ -44,4 +46,6 @@ class Carro {
 }
 
 const meuCarro = new Carro("Toyota", "Corolla", 2024);
+
 console.log(meuCarro)
+

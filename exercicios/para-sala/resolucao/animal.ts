@@ -15,6 +15,13 @@
 // O método som deve imprimir a mensagem "O gato faz: Miau".
 // Por fim, crie objetos das classes Cachorro e Gato, defina suas propriedades e chame o método som.
 
+
+
 export interface Animal {
-    som:string()void;
+    nome:string;
+    idade:number;
+    som():void;
 }
+
+
+

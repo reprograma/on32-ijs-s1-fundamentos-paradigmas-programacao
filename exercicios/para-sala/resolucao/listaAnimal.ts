@@ -1,4 +1,3 @@
-
 import { Animal } from "./animal"
 
 class Cachorro implements Animal {
@@ -33,3 +32,14 @@ class Gato implements Animal {
     }
 }
 
+const meuCachorro = new Cachorro ("Rex", 3, "Labrador");
+console.log(`Nome: ${meuCachorro.nome}`)
+console.log(`Idade: ${meuCachorro.idade}`)
+console.log(`Raca: ${meuCachorro.raca}`)
+meuCachorro.som()
+
+const meuGato = new Gato("Paçoca",1,"preto")
+console.log(`Nome: ${meuGato.nome}`)
+console.log(`Idade: ${meuGato.idade}`)
+console.log(`Cor: ${meuGato.cor}`)
+meuGato.som()

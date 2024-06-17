@@ -1,4 +1,3 @@
-
 import { ContaBancaria } from "./contaBancaria";
 
 class ContaCorrente implements ContaBancaria {

@@ -1,13 +1,13 @@
-import Antialergico from "./antialergico";
+import Hipoalergenico from "./hipoalergenico";
 import { Produto } from "./produto";
 
-class Acessorio extends Antialergico implements Produto {
+class Acessorio extends Hipoalergenico implements Produto {
   codigo: String;
   nome: String;
   modelo: String;
   valor: number;
   marca: String;
-  antialergico: boolean;
+  hipoalergenico: boolean;
 
   constructor(
     codigo: String,
@@ -15,7 +15,7 @@ class Acessorio extends Antialergico implements Produto {
     tipo: String,
     valor: number,
     marca: String,
-    antialergico: boolean
+    hipoalergenico: boolean
   ) {
     super();
     this.codigo = codigo;
@@ -23,7 +23,7 @@ class Acessorio extends Antialergico implements Produto {
     this.modelo = tipo;
     this.valor = valor;
     this.marca = marca;
-    this.antialergico = antialergico;
+    this.hipoalergenico = hipoalergenico;
   }
   excluir(codigo: string, acessorios: Produto[]): Produto[] {
     return acessorios.filter((produto) => produto.codigo !== codigo);

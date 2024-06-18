@@ -1,8 +1,10 @@
+
 // exercicios feitos pela profa aqui
 // let numero:number = 10;
 // console.log(numero)
 
 // let nome:string = 'Larildes';
+
 // console.log(nome)
 
 // const pi:number = 3.14;
@@ -30,6 +32,7 @@
 
 //classe
 //obs classe sempre com letra maiúscula
+
 class Carro {
     marca:string;
     modelo:string;
@@ -39,6 +42,7 @@ class Carro {
         this.marca = marca;
         this.modelo = modelo;
         this.ano = ano;
+
 
     }
 }

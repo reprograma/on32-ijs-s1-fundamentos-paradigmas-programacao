@@ -72,10 +72,10 @@ class ItemDecoracaoSustentavel implements ProdutoEcologico {
 }
 
 const alimentoOrganico = new AlimentoOrganico(
-    "Maçã Orgânica",
+    "Maçã do Amor Orgânica",
     5.00,
     '2024-06-20',
-    ["Maçã", "Canela", "Açúcar"]
+    ["Maçã", "Canela", "Açúcar Demara"]
 );
 
 console.log(alimentoOrganico.exibirInformacoes());

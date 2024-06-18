@@ -112,4 +112,9 @@ console.log(pessoa01)
 * https://medium.com/@habbema/typescript-functions-548d0bfa5cf7
 * https://www.academicotech.com/post/o-que-sao-metodos-na-programacao-orientada-a-objetos-com-exemplos-em-java-e-python
 * https://www.dio.me/articles/entenda-facilmente-programacao-orientada-a-objeto-poo
+* https://www.typescriptlang.org/docs/handbook/2/classes.html
+* https://learn.microsoft.com/pt-br/dotnet/csharp/programming-guide/classes-and-structs/constructors
+* https://pt.stackoverflow.com/questions/73530/para-que-serve-um-construtor
+
+
 

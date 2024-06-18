@@ -61,9 +61,8 @@ class Pessoas{
 const pessoa01 = new Pessoas("Maria Luiza", 18)
 console.log(pessoa01)
 
-// CLASSE
-
-/*class Carro {
+// CLASSE CARRO
+class Carro {
     marca:string;
     modelo:string;
     ano:number
@@ -76,6 +75,6 @@ console.log(pessoa01)
 }
 
 const meuCarro = new Carro("Toyota", "Corolla", 2024);
-console.log(meuCarro)*/
+console.log(meuCarro)
 
 

@@ -1,37 +1,68 @@
+// CRIAÇÃO DE VARIÁVEIS //
 
-// let numero:number = 10;
-// console.log(numero)
+// let: variáveis mutáveis
+let numero:number = 155;
+console.log(numero)
 
-// let nome:string = "Natalia";
-// console.log(nome)
+let nome:string = "Maria Luiza";
+console.log(nome)
 
-// const pi:number = 3.14;
-// console.log(pi)
+const pi:number = 3.14;
+console.log(pi)
 
 
-// função
-// function saudacao(nome:string, idade:number) {
-//     console.log(`Olá eu me chamo ${nome} e tenho ${idade} anos.`);
-// }
-// const nomeUsuario:string = "Natália"
-// const idade:number = 26;
-// saudacao(nomeUsuario, idade)
+// função - reutilização de código 
+// https://medium.com/@habbema/typescript-functions-548d0bfa5cf7
+function saudacao(nome:string, idade:number) {
+    //console com template 
+    console.log(`Olá eu me chamo ${nome} e tenho ${idade} anos.`);
+}
 
-//OBJETO
-// const pessoa = {
-//     nome:"Alice",
-//     idade:15,
-//     cidade:"Salvador",
-//     apresentar: function():string {
-//         return `Olá meu nome é ${this.nome}, eu tenho ${this.idade} e sou da cidade de ${this.cidade}`
-//     }
-// }
+//chamando função utilizando variáveis
+const nomeUsuario:string = "Maria Luiza"
+const idade:number = 18;
+saudacao(nomeUsuario, idade) //variáveis como parâmetros
 
-// console.log(pessoa.apresentar())
+//chamando função passando os valores diretos
+saudacao("Carlos", 49)
+
+//OBJETO DIRETO
+const pessoa = {
+    // declararação do tipo de dado recebido nas propriedades não é obrigatória
+    nome:"Alice",
+    idade:15,
+    cidade:"Salvador",
+    //criando função de apresentação 
+    apresentar: function():string {
+    return `Olá meu nome é ${this.nome}, eu tenho ${this.idade} e sou da cidade de ${this.cidade}`
+}
+}
+//chamando a função atrelada ao objeto direto
+console.log(pessoa.apresentar())
+
+// criando classe pessoas para a criação de objetos pessoas
+class Pessoas{
+    nomePessoa:string; 
+    idadePessoa:number;
+    
+    constructor(nomePessoa: string, idadePessoa:number){
+        this.nomePessoa = nomePessoa;
+        this.idadePessoa = idadePessoa;
+    }
+    
+    apresentaPessoa(): string {
+        return `It's me, hi!. Meu nome é ${this.nomePessoa}, eu tenho ${this.idadePessoa} anos`;
+    }
+
+}
+
+// Criaação de objeto "pessoa01"
+const pessoa01 = new Pessoas("Maria Luiza", 18)
+console.log(pessoa01)
 
 // CLASSE
 
-class Carro {
+/*class Carro {
     marca:string;
     modelo:string;
     ano:number
@@ -44,6 +75,6 @@ class Carro {
 }
 
 const meuCarro = new Carro("Toyota", "Corolla", 2024);
-console.log(meuCarro)
+console.log(meuCarro)*/
 
 

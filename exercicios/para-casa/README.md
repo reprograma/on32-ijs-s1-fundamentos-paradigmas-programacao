@@ -5,6 +5,7 @@
 - Explicação do exercício: 
 Você desenvolverá um sistema de gerenciamento de produtos ecológicos utilizando apenas classes e interfaces simples e introdutórias em TypeScript.
 Este sistema permitirá que os usuários cadastrem e visualizem uma variedade de produtos sustentáveis, incluindo alimentos orgânicos, produtos de limpeza biodegradáveis, entre outros.
+//criar interface e algumas classe para um gerenciamento ded estoque
 
 O objetivo deste desafio é criar uma arquitetura básica para o sistema, utilizando conceitos simples de classes e interfaces em TypeScript.
 Cada classe deve representar um tipo de produto ecológico e implementar uma interface que defina os métodos e propriedades necessários para gerenciar esse tipo de produto.

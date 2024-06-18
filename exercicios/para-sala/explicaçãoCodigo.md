@@ -1,5 +1,5 @@
 # Funções:
-``` 
+``` typescript
 function saudacao(nome:string, idade:number) {  
     //console com template   
     console.log(`Olá eu me chamo ${nome} e tenho ${idade} anos.`);  
@@ -7,16 +7,18 @@ function saudacao(nome:string, idade:number) {
 ```
 
 ## chamando função utilizando variáveis
+``` typescript
 const nomeUsuario:string = "Maria Luiza"  
 const idade:number = 18;  
 saudacao(nomeUsuario, idade) //variáveis como parâmetros  
-
+```
 
 ## chamando função passando os valores diretos
+```typescript
 saudacao("Carlos", 49)
-
+```
 # Criação de objetos - OBJETO DIRETO
-
+```typescript
 const pessoa = {
     // declararação do tipo de dado recebido nas propriedades não é obrigatória
     nome:"Alice",
@@ -29,7 +31,7 @@ const pessoa = {
 }
 //chamando a função atrelada ao objeto direto
 console.log(pessoa.apresentar())
-
+```
 ## Objeto pessoa
 ### Declaração de objeto => const pessoa = {...}
 ### Definição de métodos e proepriedades são feitas dentro de {}
@@ -40,9 +42,15 @@ console.log(pessoa.apresentar())
 ### Cidade, que receberá o valor "Salvador" e será do tipo String
 
 ## Métodos
-### Método apresentar, atrelado ao objeto "pessoa"
-### Dentro da função é retornada uma apresentação simples utilizando o "template literals" que contém o "this", onde refere-se ao próprio objeto criado
+### apresentar: É um método definido e atrelado no objeto pessoa.
+### function() { ... } ou apresentar() { ... }: Ambas as formas definem uma função que faz parte do objeto pessoa.
+### return ...: Dentro do método apresentar, temos uma instrução return que retorna uma string formatada usando os valores das propriedades nome, idade e cidade do objeto pessoa. O uso de ${this.nome}, ${this.idade} e ${this.cidade} dentro da string interpolada (template literals) permite acessar essas propriedades diretamente do objeto pessoa usando this.
 
 ## Chamada
 ### console.log(pessoa.apresentar()); - Aqui, "pessoa.apresentar()" é chamado para executar o método apresentar do objeto pessoa.
 ### O método retorna a string formatada, que é então impressa no console usando console.log.
+
+
+# O QUE SÃO CLASSES?
+# O QUE SÃO OBJETOS?
+# O QUE SÃO MÉTODOS?

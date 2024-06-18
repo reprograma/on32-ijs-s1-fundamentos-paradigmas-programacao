@@ -1,35 +1,37 @@
 
+// exercicios feitos pela profa aqui
 // let numero:number = 10;
 // console.log(numero)
 
-// let nome:string = "Natalia";
+// let nome:string = 'Larildes';
+
 // console.log(nome)
 
 // const pi:number = 3.14;
 // console.log(pi)
 
-
-// função
 // function saudacao(nome:string, idade:number) {
-//     console.log(`Olá eu me chamo ${nome} e tenho ${idade} anos.`);
+//     console.log(`Olá, ${nome}, vi aqui que vc tem ${idade} anos.`);
 // }
-// const nomeUsuario:string = "Natália"
-// const idade:number = 26;
-// saudacao(nomeUsuario, idade)
 
-//OBJETO
+// const nomeUsuario:string = 'Larildes';
+
+// saudacao(nomeUsuario, 12)
+
+//Objeto
 // const pessoa = {
-//     nome:"Alice",
-//     idade:15,
-//     cidade:"Salvador",
+//     nome:"Lara",
+//     idade:12,
+//     cidade:"Rio Verde das Aboba",
 //     apresentar: function():string {
-//         return `Olá meu nome é ${this.nome}, eu tenho ${this.idade} e sou da cidade de ${this.cidade}`
+//         return `Olá, me chamo ${this.nome}, tenho ${this.idade} anos e sou de ${this.cidade}`
 //     }
 // }
 
 // console.log(pessoa.apresentar())
 
-// CLASSE
+//classe
+//obs classe sempre com letra maiúscula
 
 class Carro {
     marca:string;
@@ -40,10 +42,11 @@ class Carro {
         this.marca = marca;
         this.modelo = modelo;
         this.ano = ano;
+
+
     }
 }
 
-const meuCarro = new Carro("Toyota", "Corolla", 2024);
-console.log(meuCarro)
+const meuC3Lindo = new Carro("Citroën", "C3", 1900);
 
-
+console.log(meuC3Lindo)

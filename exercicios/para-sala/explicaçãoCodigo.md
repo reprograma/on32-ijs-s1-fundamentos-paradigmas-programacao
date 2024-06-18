@@ -80,3 +80,12 @@ console.log(pessoa01)
 # O QUE SÃO CLASSES?
 # O QUE SÃO OBJETOS?
 # O QUE SÃO MÉTODOS?
+
+
+# Leitura complementar
+* https://medium.com/@habbema/typescript-functions-548d0bfa5cf7
+* https://www.alura.com.br/artigos/poo-programacao-orientada-a-objetos
+* https://medium.com/@habbema/typescript-functions-548d0bfa5cf7
+* https://www.academicotech.com/post/o-que-sao-metodos-na-programacao-orientada-a-objetos-com-exemplos-em-java-e-python
+* https://www.dio.me/articles/entenda-facilmente-programacao-orientada-a-objeto-poo
+

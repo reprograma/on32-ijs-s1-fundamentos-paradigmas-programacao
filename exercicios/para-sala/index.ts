@@ -12,7 +12,6 @@ console.log(pi)
 
 
 // função - reutilização de código 
-// https://medium.com/@habbema/typescript-functions-548d0bfa5cf7
 function saudacao(nome:string, idade:number) {
     //console com template 
     console.log(`Olá eu me chamo ${nome} e tenho ${idade} anos.`);

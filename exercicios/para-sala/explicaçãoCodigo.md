@@ -1,15 +1,20 @@
 # Funções: 
 ``
-function saudacao(nome:string, idade:number) {
-    //console com template 
-    console.log(`Olá eu me chamo ${nome} e tenho ${idade} anos.`);
+function saudacao(nome:string, idade:number) {  
+
+    //console com template   
+
+    console.log(`Olá eu me chamo ${nome} e tenho ${idade} anos.`);  
 }
 ``
 
 ## chamando função utilizando variáveis
-const nomeUsuario:string = "Maria Luiza"
-const idade:number = 18;
-saudacao(nomeUsuario, idade) //variáveis como parâmetros
+const nomeUsuario:string = "Maria Luiza"  
+
+const idade:number = 18;  
+
+saudacao(nomeUsuario, idade) //variáveis como parâmetros  
+
 
 ## chamando função passando os valores diretos
 saudacao("Carlos", 49)

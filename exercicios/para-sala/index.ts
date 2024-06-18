@@ -56,7 +56,7 @@ class Pessoas{
 
 }
 
-// Criaação de objeto "pessoa01"
+// Criação de objeto "pessoa01"
 const pessoa01 = new Pessoas("Maria Luiza", 18)
 console.log(pessoa01)
 

@@ -51,6 +51,32 @@ console.log(pessoa.apresentar())
 2. O método retorna a string formatada, que é então impressa no console usando console.log.
 
 
+# Criando classes para objetos
+``` typescript 
+
+// criando classe pessoas para a criação de objetos 
+class Pessoas{
+    nomePessoa:string; 
+    idadePessoa:number;
+    
+    constructor(nomePessoa: string, idadePessoa:number){
+        this.nomePessoa = nomePessoa;
+        this.idadePessoa = idadePessoa;
+    }
+    
+    apresentaPessoa(): string {
+        return `It's me, hi!. Meu nome é ${this.nomePessoa}, eu tenho ${this.idadePessoa} anos`;
+    }
+
+}
+
+// Representação de objetos, onde, cada pessoa, será um objeto.
+
+// Criação de objeto "pessoa01"
+const pessoa01 = new Pessoas("Maria Luiza", 18)
+console.log(pessoa01)
+```
+
 # O QUE SÃO CLASSES?
 # O QUE SÃO OBJETOS?
 # O QUE SÃO MÉTODOS?

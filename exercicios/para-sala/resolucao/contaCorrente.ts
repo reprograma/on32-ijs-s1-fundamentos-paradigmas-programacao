@@ -1,4 +1,4 @@
-import ContaBancaria from './contaBancaria';
+import ContaBancaria from './models/interface/contaBancaria';
 
 export default class ContaCorrente implements ContaBancaria {
     saldo:number;

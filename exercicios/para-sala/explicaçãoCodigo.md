@@ -1,9 +1,10 @@
-# Funções: 
+# Funções:
+``` 
 function saudacao(nome:string, idade:number) {  
     //console com template   
     console.log(`Olá eu me chamo ${nome} e tenho ${idade} anos.`);  
 }
-
+```
 
 ## chamando função utilizando variáveis
 const nomeUsuario:string = "Maria Luiza"  

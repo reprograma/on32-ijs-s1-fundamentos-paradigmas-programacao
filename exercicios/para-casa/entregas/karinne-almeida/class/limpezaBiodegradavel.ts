@@ -21,6 +21,6 @@ const produtoLimpeza = new ProdutoLimpezaBiodegradavel(
 console.log(`
     Produto: ${produtoLimpeza.nome}
     Preço: R$${produtoLimpeza.preco.toFixed(2)}
-    Volume: R$${produtoLimpeza.volume}
+    Volume: ${produtoLimpeza.volume} mL
     `
 );

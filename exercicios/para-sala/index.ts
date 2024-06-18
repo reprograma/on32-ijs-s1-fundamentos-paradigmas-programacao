@@ -38,6 +38,8 @@ const pessoa = {
 }
 //chamando a função atrelada ao objeto direto
 console.log(pessoa.apresentar())
+//podemos acessar outras informações  dentro do objeto criado 
+console.log(pessoa.idade)
 
 // criando classe pessoas para a criação de objetos pessoas
 class Pessoas{

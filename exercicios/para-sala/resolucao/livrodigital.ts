@@ -1,21 +1,21 @@
 import { Livro } from "./livro";
 
 class LivroDigital implements Livro {
-    titulo;
-    autor;
-    formato;
+    titulo: string; 
+    autor: string;
+    formato:string 
 
-    constructor(titulo:string, autor:string, formato:string){
-        this.titulo = titulo;
-        this.autor = autor;
-        this.formato = formato
-    }
-
-    detalhe(): string {
-        return `Titulo: ${this.titulo}, Autor: ${this.autor}, Formato: ${this.formato}`
-    }
+    constructor(titulo:string, autor: string, formato: string){
+    this.titulo = titulo;
+    this.autor = autor;
+    this.formato = formato
 }
 
-const meuLivroDigital = new LivroDigital("Quarto de despejo", "Carolina Maria De Jesus", "PDF");
+detalhe(): string {
+    return `Título: ${this.titulo}, Autor: ${this.autor}, Formato: ${this.formato}`
+}
+}
 
-console.log(meuLivroDigital.detalhe())
+let meuLivroDigital = new LivroDigital("Memórias Póstumas", "Braz Cubas", "epub");
+
+console.log(meuLivroDigital.detalhe());

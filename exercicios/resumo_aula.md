@@ -10,7 +10,7 @@
 # Programação lógica
 * Programação lógico: baseia-se na matemática e raciocínio dedutivo para resolver problemas. 
 
-_2:15 tempo parado_
+_2:15 tempo parado (finalizar parte de explicação de paradigmas)_
 
 # Instalação do typescript e clonagem de repositório
 •	Git clone linkdorepositorio

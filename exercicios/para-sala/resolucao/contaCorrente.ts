@@ -1,3 +1,4 @@
+// importando a interface 
 import { ContaBancaria } from "./contaBancaria";
 
 class ContaCorrente implements ContaBancaria {
@@ -20,8 +21,10 @@ class ContaCorrente implements ContaBancaria {
         }
 }
 
+// sacar e depositar são métodos void pois não utilizam um retorno explícito usando o "return"
+
 const conta = new ContaCorrente(1000);
-console.log("Saldo Inicial", conta.saldo)
+console.log("Saldo após deposito", conta.saldo)
 
 conta.depositar(500);
 console.log("Saldo após deposito", conta.saldo)

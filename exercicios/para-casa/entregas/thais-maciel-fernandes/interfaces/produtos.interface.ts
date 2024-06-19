@@ -6,4 +6,5 @@ export interface ProdutoEcologico {
     descricao: string;
     preco: number;
     tipo: TiposEnumProdutosEcologicos;
+    produtoEstaDentroDaValidade: () => boolean
 }

@@ -1,5 +1,5 @@
 export interface ProdutoEcologico {
-    nome: string; // propriedades
+    nome: string;
     preco: number;
 }
 

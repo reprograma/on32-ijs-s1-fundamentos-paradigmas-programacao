@@ -1,10 +1,9 @@
 import { ProdutoEcologico } from "./ProdutoEcologico";
 
-// PRIMEIRA CLASSE
 class AlimentoOrganico implements ProdutoEcologico {
     nome: string;
     preco: number;
-    dataValidade: Date; // INSERIR DATA CHAMAR MÉTODO TYPESCRIPT
+    dataValidade: Date;
     ingredientes: string[];
 constructor(nome: string, preco: number, dataValidade: string, ingredientes: string[]) {
     this.nome = nome;
@@ -13,13 +12,12 @@ constructor(nome: string, preco: number, dataValidade: string, ingredientes: str
     this.ingredientes = ingredientes;
     }
 infosOrganico():string {
-        return `Nome: ${this.nome}, Preço: R$ ${this.preco}, Data de Validade: ${this.dataValidade.toLocaleDateString('pt-BR')}, Ingredientes: ${this.ingredientes}`;
+        return `Nome: ${this.nome}, Preço: R$ ${this.preco.toFixed(2)}, Data de Validade: ${this.dataValidade.toLocaleDateString('pt-BR')}, Ingredientes: ${this.ingredientes}`;
     }
 }
-const organico = new AlimentoOrganico("Bolo", 10, "2024-06-11" , ["laranja", " açúcar", " farinha"]); // instanciando a classe
-console.log(organico.infosOrganico()) // 
+const organico = new AlimentoOrganico("Bolo", 10, "2024-06-11" , ["laranja", " açúcar", " farinha"]);
+console.log(organico.infosOrganico()) 
 
-// SEGUNDA CLASSE
 class ProdutoLimpezaBiodegradavel implements ProdutoEcologico {
     nome: string;
     preco: number;
@@ -30,13 +28,12 @@ constructor(nome: string, preco: number, volume: number) {
         this.volume = volume;
     }
 infosLimpeza(): string{
-    return `Nome: ${this.nome}, Preço: R$ ${this.preco},00, Volume: ${this.volume}ml}`
+    return `Nome: ${this.nome}, Preço: R$ ${this.preco.toFixed(2)}, Volume: ${this.volume}ml}`
     }
 }
 const limpeza = new ProdutoLimpezaBiodegradavel("Sabão", 5, 50);
 console.log(limpeza.infosLimpeza())
 
-// TERCEIRA CLASSE
 class ItemDecoracaoSustentavel implements ProdutoEcologico {
     nome: string;
     preco: number;
@@ -52,7 +49,7 @@ constructor(nome: string, preco: number, material: string, dimensoes: {largura: 
     this.dimensoes = dimensoes;
     }
 infosDecoracao(): string{
-    return `Nome: ${this.nome}, Preço: R$ ${this.preco},00, Material: ${this.material}, Dimensões = Largura: ${this.dimensoes.largura}cm, Altura: ${this.dimensoes.altura}cm, Profundidade: ${this.dimensoes.profundidade}cm}`
+    return `Nome: ${this.nome}, Preço: R$ ${this.preco.toFixed(2)}, Material: ${this.material}, Dimensões = Largura: ${this.dimensoes.largura}cm, Altura: ${this.dimensoes.altura}cm, Profundidade: ${this.dimensoes.profundidade}cm}`
     }
 }
 const decoracao = new ItemDecoracaoSustentavel("Quadro", 50, "Bambu", {largura: 10, altura: 80, profundidade: 30});

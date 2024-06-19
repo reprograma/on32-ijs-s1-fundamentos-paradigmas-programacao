@@ -1,8 +1,9 @@
 import { TiposEnumProdutosEcologicos } from "../enums/produtos.enum";
 
 
-export interface ProdutosEcologicos {
+export interface ProdutoEcologico {
     nome: string;
     descricao: string;
+    preco: number;
     tipo: TiposEnumProdutosEcologicos;
 }

@@ -99,12 +99,13 @@ console.log(pessoa01)
 2. *return It's me, hi!. Meu nome é ${this.nomePessoa}, eu tenho ${this.idadePessoa} anos;* --> Utiliza interpolação de string (template literals) para construir uma mensagem que inclui o nome e a idade da pessoa armazenados nas propriedades nomePessoa e idadePessoa.
 
 
-# O QUE SÃO CLASSES?
-# O QUE SÃO OBJETOS?
-# O QUE SÃO MÉTODOS?
-# O QUE É O CONSTRUCTOR?
+# O que são classes?
+* São modelos para criar objetos. Elas podem definir tanto a estrutura (propriedades e métodos) quanto a implementação dos métodos.
+# O que são objetos?
+# O que são métodos?
+# O que é o constructor?
 # O que são interfaces?
-* As interfaces estabelecem um 
+* Servem para definir um contrato ou molde que outras classes ou objetos devem seguir. Elas especificam quais propriedades e métodos um objeto deve ter, mas não fornecem implementações.  
 
 # Leitura complementar
 * https://medium.com/@habbema/typescript-functions-548d0bfa5cf7

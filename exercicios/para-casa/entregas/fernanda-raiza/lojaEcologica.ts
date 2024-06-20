@@ -68,3 +68,4 @@ class ItemDecoracaoSustentavel implements produtoEcologico {
     leiteVegetal.exibeProduto();
     sabaoLiquido.exibeProduto();
     velaAromatica.exibeProduto();
+    

@@ -1,7 +1,7 @@
 //**AlimentoOrganico**, **ProdutoLimpezaBiodegradavel** e ItemDecoracaoSustentavel são classes que implementam a interface ProdutoEcologico, cada uma representando um tipo específico de produto ecológico.
 //Cada classe possui suas próprias propriedades específicas, como material e dimensões para **ItemDecoracaoSustentavel**.
 
-import { ProdutoEcologico } from "../interfaces/produtoEcologico.interface"
+import { ProdutoEcologico } from "../interfaces/ProdutoEcologico.interface"
 import { Dimensoes } from "../interfaces/dimensoes.interface"
   
 export class ItemDecoracaoSustentavel implements ProdutoEcologico {

@@ -1,6 +1,6 @@
-import { AlimentoOrganico } from "./models/AlimentoOrganico"
-import { ItemDecoracaoSustentavel } from "./models/ItenDecoracaoSustentavel"
-import { ProdutoLimpezaBiodegradavel } from "./models/ProdutoLimpezaBiodegradavel"
+import { AlimentoOrganico } from "./models/AlimentoOrganico.models"
+import { ItemDecoracaoSustentavel } from "./models/ItemDecoracaoSustentavel.models"
+import { ProdutoLimpezaBiodegradavel } from "./models/ProdutoLimpezaBiodegradavel.models"
 
 // Alimento orgânico
 console.log('Alimento orgânico')

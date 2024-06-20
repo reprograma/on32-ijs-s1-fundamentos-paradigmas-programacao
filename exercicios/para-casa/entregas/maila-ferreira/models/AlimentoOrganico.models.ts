@@ -2,7 +2,7 @@
 //Cada classe possui suas próprias propriedades específicas, como data de validade e ingredientes para **AlimentoOrganico**
 
 
-import { ProdutoEcologico } from "../interfaces/produtoEcologico.interface"
+import { ProdutoEcologico } from "../interfaces/ProdutoEcologico.interface"
 
 export class AlimentoOrganico implements ProdutoEcologico {
     nome: string

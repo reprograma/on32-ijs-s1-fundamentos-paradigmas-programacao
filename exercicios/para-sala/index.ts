@@ -1,7 +1,7 @@
 // let numero:number = 10;
 // console.log(numero)
 
-// let nome:string = "Wanessa";
+// let nome:string = "Natalia";
 // console.log(nome)
 
 // const pi:number = 3.14;
@@ -9,14 +9,11 @@
 
 
 // função
-//anotação: 1º O ts é uma sequência, então ele vai começar a ler de cima pra baixo, dentro da função eu preciso colocar qual parâmetro e o tipo que eu quero receber
 // function saudacao(nome:string, idade:number) {
 //     console.log(`Olá eu me chamo ${nome} e tenho ${idade} anos.`);
 // }
-//2ª criação de variável
-// const nomeUsuario:string = "Wanessa" 
-// const idade:number = 27;
-//3ª colocar a variável como método
+// const nomeUsuario:string = "Natália"
+// const idade:number = 26;
 // saudacao(nomeUsuario, idade)
 
 //OBJETO
@@ -47,3 +44,4 @@ class Carro {
 
 const meuCarro = new Carro("Toyota", "Corolla", 2024);
 console.log(meuCarro)
+

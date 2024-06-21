@@ -2,7 +2,7 @@ interface Veiculo {
     marca:string;
     modelo:string;
     ano:number;
-    exibirInformacoes():string
+    exibirInformacoes():string;
 }
 
 class Automovel implements Veiculo {
@@ -22,5 +22,4 @@ class Automovel implements Veiculo {
 }
 
 const myCarro = new Automovel("toyota", "Corolla", 2024)
-
 console.log(myCarro.exibirInformacoes())

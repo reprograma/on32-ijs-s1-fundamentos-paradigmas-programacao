@@ -1,4 +1,3 @@
-
 export interface ContaBancaria {
     saldo:number;
     depositar(valor:number):void

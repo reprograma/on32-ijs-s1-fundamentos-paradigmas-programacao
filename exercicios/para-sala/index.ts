@@ -1,4 +1,3 @@
-
 // let numero:number = 10;
 // console.log(numero)
 
@@ -45,5 +44,4 @@ class Carro {
 
 const meuCarro = new Carro("Toyota", "Corolla", 2024);
 console.log(meuCarro)
-
 

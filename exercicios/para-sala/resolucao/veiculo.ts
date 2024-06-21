@@ -22,5 +22,4 @@ class Automovel implements Veiculo {
 }
 
 const myCarro = new Automovel("toyota", "Corolla", 2024)
-
 console.log(myCarro.exibirInformacoes())

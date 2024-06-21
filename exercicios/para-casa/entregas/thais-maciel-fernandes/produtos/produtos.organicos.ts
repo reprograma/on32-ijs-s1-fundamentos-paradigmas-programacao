@@ -3,33 +3,36 @@ import { ProdutoEcologico } from "../interfaces/produtos.interface";
 
 export class Produtos implements ProdutoEcologico {
     public nome: string;
-    public descricao: string;
     public preco: number;
+    protected dataValidade?: Date;
     public tipo: TiposEnumProdutosEcologicos;
-    protected dataDeValidade: Date;
 
-
-    constructor(nome: string, descricao:string, preco: number, dataDeValidade: Date, tipo: TiposEnumProdutosEcologicos){
+    constructor(nome: string, preco: number, tipo: TiposEnumProdutosEcologicos, dataValidade?: Date) {
         this.nome = nome;
-        this.descricao = descricao;
         this.preco = preco;
+        this.dataValidade = dataValidade ?? undefined;
         this.tipo = tipo;
-        this.dataDeValidade = dataDeValidade;
     }
 
     public produtoEstaDentroDaValidade(): boolean {
-        let hoje = new Date();
-        return this.dataDeValidade > hoje;
-    };
-
+        if (!this.dataValidade) {
+        return true;
+    }
+    let hoje = new Date();
+    return this.dataValidade > hoje;
+}
 
     public getListaDeProdutos() {
         return {
             nome: this.nome,
-            descricao: this.descricao,
             preco: this.preco,
             tipo: this.tipo,
             estaDentroDaValidade: this.produtoEstaDentroDaValidade()
         }
     }
+
+    public cadastrar(): void {
+        console.log(`Produto ${this.nome} cadastrado com sucesso!`)
+    }
+
 }

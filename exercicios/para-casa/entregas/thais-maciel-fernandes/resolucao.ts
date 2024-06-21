@@ -22,13 +22,6 @@ alimentosOrganicos.forEach(produto => produto.cadastrar());
 produtosDeLimpeza.forEach(produto => produto.cadastrar());
 decoracao.forEach(produto => produto.cadastrar());
 
-//utilize para visualização das tabelas dos produtos separadamente, respeitando seu "tipo"
-// console.table(alimentosOrganicos.map(produto => produto.getListaDeProdutos()));
-// console.table(produtosDeLimpeza.map(produto => produto.getListaDeProdutos()));
-// console.table(decoracao.map(produto => produto.getListaDeProdutos()));
-
-
-// utilize para visualização de uma tabela única com a listagem geral de produtos, independente de "tipo"
 let listagemDeProdutos: any[] = [
     ...alimentosOrganicos,
     ...produtosDeLimpeza,

@@ -20,34 +20,34 @@ b.	Herança
 c.	Encapsulamento
 
 # Objetos
-•	Material ou abstrato que pode ser percebido pelos sentidos e descritos por meio de suas características, comportamentos e estado atual.
+* Material ou abstrato que pode ser percebido pelos sentidos e descritos por meio de suas características, comportamentos e estado atual.
 
 # Classe
-•	É um molde ou estrutura que define o objeto. Ela especifica os dados e os comportamentos que o os objetos daquele tipo terão.
+* É um molde ou estrutura que define o objeto. Ela especifica os dados e os comportamentos que o os objetos daquele tipo terão.
     Coisas que eu tenho? --> Atributos
     Coisas que eu faço? --> Métodos
     Como estou agora? --> Estado
 
 ## Canetas
 Atributos de uma caneta (coisas que ela tem)
-•	Modelo
-•	Ponta
-•	Cor
-•	Carga
-•	Tampada
+* Modelo
+* Ponta
+* Cor
+* Carga
+* Tampada
 
 Métodos de uma caneta (Coisas que ela pode fazer)
-•	Escrever
-•	Pintar
-•	Destampar
-•	Tampar
+* Escrever
+* Pintar
+* Destampar
+* Tampar
 
 Estado de uma caneta (Como ela está atualmente)
-•	50% carga
-•	Ponta fina
-•	Destampada
-•	Escrevendo
-•	Tem a cor azul
+* 50% carga
+* Ponta fina
+* Destampada
+* Escrevendo
+* Tem a cor azul
 
 •	Para instanciar um objeto: nomeObjeto = new Caneta
 

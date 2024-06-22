@@ -1,4 +1,3 @@
 //exercicios feitos pela profa aqui
-let firstName: string = "tabatha";
-
+var firstName = "tabatha";
 console.log(firstName);

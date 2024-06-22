@@ -1,6 +1,6 @@
 import { ProdutosEco } from "../produto-ecologico.interface";
 
-export default class Organicos implements ProdutoEco {
+export default class Organicos implements ProdutosEco {
   nome: string;
   preco: number;
   dataValidade: Date;

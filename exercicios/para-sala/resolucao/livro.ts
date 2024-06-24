@@ -13,8 +13,7 @@
 
 export interface Livro {
 
-    titulo:string;
+    titulo: string;
     autor: string;
-    detalhe():string;
-
+    detalhe(): string;
 }

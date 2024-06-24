@@ -17,9 +17,7 @@
 
 
 export interface Animal {
-    nome:string;
-    idade:number;
+    nome: string;
+    idade: number;
     som():void;
 }
-
-

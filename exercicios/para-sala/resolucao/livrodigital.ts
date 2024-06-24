@@ -5,17 +5,16 @@ class LivroDigital implements Livro {
     autor;
     formato;
 
-    constructor(titulo:string, autor:string, formato:string){
+    constructor(titulo: string, autor: string, formato: string) {
         this.titulo = titulo;
         this.autor = autor;
         this.formato = formato
     }
 
     detalhe(): string {
-        return `Titulo: ${this.titulo}, Autor: ${this.autor}, Formato: ${this.formato}`
+        return `Título: ${this.titulo}, Autor: ${this.autor}, Formato: ${this.formato}`
     }
 }
 
-const meuLivroDigital = new LivroDigital("Quarto de despejo", "Carolina Maria De Jesus", "PDF");
-
+const meuLivroDigital = new LivroDigital("Quarto de Despejo", "Carolina Maria de Jesus", "PDF");
 console.log(meuLivroDigital.detalhe())

@@ -1,5 +1,5 @@
 export interface ProdutoEcologico{
-    nome: String;
-    preco: Number;
+    nome: string;
+    preco: number;
     exibirInformacoes(): string
     }
